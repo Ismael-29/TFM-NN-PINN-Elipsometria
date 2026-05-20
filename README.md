@@ -8,19 +8,18 @@ Redes neuronales informadas por la física (PINNs) para la caracterización ópt
 
 ## Estructura del repositorio
 
+- `datos/` — Contiene los archivos de datos utilizados (incluye `Si.clc`)
 - `modelo_tl.py` — Modelo Tauc-Lorentz (ε₁, ε₂) con integración de Kramers-Kronig
 - `modelo_tl_tf.py` — Modelo directo TMM en TensorFlow nativo para la loss física de la PINN
-- `utils.py` — Funciones auxiliares (escalado, métricas)
 - `1osc/` — Un oscilador, espesor fijo
 - `1osc_d/` — Un oscilador con espesor variable
 - `3osc/` — Tres osciladores, espesor fijo
 - `3osc_d/` — Tres osciladores con espesor variable
 
-Cada carpeta contiene:
+Cada carpeta de osciladores contiene:
 - `generar_dataset.py` — Generación de datos sintéticos (espectros Ψ, Δ mediante TMM)
 - `entrenar_nn.py` — Entrenamiento de la red neuronal estándar 
 - `entrenar_pinn.py` — Entrenamiento de la PINN 
-
 
 ## Requisitos
 
@@ -28,4 +27,4 @@ Python 3.11, TensorFlow, NumPy, SciPy
 
 ## Autor
 
-Ismael Pardo Ortiz — Universidad de Cantabria, 2026
+Ismael Pardo Ortiz — Universidad de Cantabria, 2026.
