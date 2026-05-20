@@ -18,9 +18,9 @@ Redes neuronales informadas por la física (PINNs) para la caracterización ópt
 
 Cada carpeta contiene:
 - `generar_dataset.py` — Generación de datos sintéticos (espectros Ψ, Δ mediante TMM)
-- `entrenar_nn.py` — Entrenamiento de la red neuronal estándar
-- `entrenar_pinn.py` — Entrenamiento de la PINN con loss de reconstrucción espectral (solo en `3osc/` y `3osc_d/`)
-- `predicciones.py` — Inferencia y reconstrucción espectral
+- `entrenar_nn.py` — Entrenamiento de la red neuronal estándar 
+- `entrenar_pinn.py` — Entrenamiento de la PINN 
+
 
 ## Requisitos
 
