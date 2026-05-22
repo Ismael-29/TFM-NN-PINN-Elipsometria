@@ -4,7 +4,7 @@ Código del Trabajo Fin de Máster: *"Aplicación de Redes Neuronales Informadas
 
 ## Descripción
 
-Redes neuronales informadas por la física (PINNs) para la caracterización óptica de capas delgadas mediante elipsometría espectroscópica. Los modelos recuperan los parámetros del modelo Tauc-Lorentz a partir de espectros Ψ/Δ, soportando configuraciones de 1, 2 y 3 osciladores.
+Comparación de redes neuronales estándar y redes neuronales informadas por la física (PINNs) para la caracterización óptica de capas delgadas mediante elipsometría espectroscópica. Los modelos recuperan los parámetros del modelo Tauc-Lorentz a partir de espectros Ψ/Δ, soportando configuraciones de 1, 2 y 3 osciladores.
 
 ## Estructura del repositorio
 
